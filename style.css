@@ -1,2 +1,7 @@
-.footer{
-background-color: blueviolet;}
+
+.footer {
+ background-color: blueviolet;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
