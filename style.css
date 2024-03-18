@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Ganz nach: https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
 :root {
   font-size: calc(1rem + 0.25vw);
@@ -25,3 +26,12 @@
   grid-area: 1 / 1 / 2 / 2;
   justify-items: center;
 }
+=======
+
+.footer {
+ background-color: blueviolet;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+>>>>>>> main
