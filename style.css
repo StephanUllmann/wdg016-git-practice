@@ -12,15 +12,11 @@
     "Helvetica Neue", sans-serif;
 }
 
-body {
-  min-height: 100vh;
+.windows {
   display: grid;
-  place-content: center;
-  background-size: cover;
-}
-
-.top-bar {
-  border: 1px solid black; /*Put this anywhere for debugging. you can see your Flexboxes! */
-  background-color: var(--color-primary);
-  border-radius: 4px;
+  width: 9100dvw;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
