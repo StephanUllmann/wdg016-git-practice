@@ -1,6 +1,7 @@
 /* Ganz nach: https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
 :root {
   font-size: calc(1rem + 0.25vw);
+  --color-primary: grey;
 }
 
 * {
@@ -11,10 +12,15 @@
     "Helvetica Neue", sans-serif;
 }
 
-.top-bar {
-  border: 1px solid #fff; /*Put this anywhere for debugging. you can see your Flexboxes! */
+body {
   min-height: 100vh;
   display: grid;
   place-content: center;
   background-size: cover;
+}
+
+.top-bar {
+  border: 1px solid black; /*Put this anywhere for debugging. you can see your Flexboxes! */
+  background-color: var(--color-primary);
+  border-radius: 4px;
 }
