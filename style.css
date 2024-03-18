@@ -20,3 +20,8 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
+.top-bar {
+  grid-area: 1 / 1 / 2 / 2;
+  justify-items: center;
+}
